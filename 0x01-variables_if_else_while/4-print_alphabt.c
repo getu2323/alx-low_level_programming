@@ -11,7 +11,6 @@
 int main(void)
 {
 	char sl;
-	char cl;
 
 	for (sl = 'a'; sl <= 'z'; sl++)
 	{
