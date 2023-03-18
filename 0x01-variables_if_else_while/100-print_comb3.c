@@ -17,12 +17,25 @@ int main(void)
 	{
 		for (num2 = 0; num2 <= 9; num2++)
 		{
-			if (num1 == num2)
-				continue;
-			putchar('0' + num1);
-			putchar('0' + num2);
-			putchar(',');
-			putchar(' ');
+			if (num2 > num1)
+			{
+				if (num1 == num2)
+					continue;
+				putchar('0' + num1);
+				putchar('0' + num2);
+				putchar(',');
+				putchar(' ');
+			}
+			/**
+			  *if (num1 == num2 && num2 > num1)
+			  *continue;
+			  */
+			/**
+			* putchar('0' + num1);
+			* putchar('0' + num2);
+			* putchar(',');
+			* putchar(' ');
+			*/
 		}
 	}
 	putchar('\n');
