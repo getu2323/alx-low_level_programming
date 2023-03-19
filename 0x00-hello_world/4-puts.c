@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-*main - entry point
-*return: always 0 (success)
-*/
-int main(void)/*this is main*/
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");	
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
